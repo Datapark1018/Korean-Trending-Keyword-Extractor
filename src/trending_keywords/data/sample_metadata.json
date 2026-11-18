@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "kind": "real-data-derived-topic-projection",
+  "analysis_at": "2026-11-09 23:52:00",
+  "window_hours": 16,
+  "background_days": 14,
+  "source_window_posts": 18650,
+  "sample_posts": 768,
+  "recent_posts": 131,
+  "background_posts": 637,
+  "communities": {
+    "community_1": 8,
+    "community_2": 562,
+    "community_3": 198
+  },
+  "first_post_at": "2026-10-26 14:20:02",
+  "last_post_at": "2026-11-09 23:51:00",
+  "sha256": "e91cb237a7c8508cae5896c6b8f9a25510b584afda78ae31b3b9fcc19555b82f",
+  "transformation": "Allowlisted sports/esports terms in source order (max 12 distinct terms); at least two terms including an anchor. Views and timestamps preserved; IDs replaced and communities pseudonymized. No random sampling.",
+  "limitations": "Selected and projected titles are for software demonstration, not a representative corpus, factual news source, or accuracy benchmark."
+}
